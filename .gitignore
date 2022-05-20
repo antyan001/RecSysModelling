@@ -1,0 +1,5 @@
+/logs
+*/__pycache__/
+.ipynb_checkpoints/
+nohup.out
+/mail_settings/mail_settings.txt
