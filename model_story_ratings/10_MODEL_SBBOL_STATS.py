@@ -59,7 +59,7 @@ class CreateModelStoryStats():
     @class_method_logger
     def connect_iskra(self):
 #         self.loader = load.Loader(init_dsn=True, encoding='cp1251',  sep=',')
-#         self.data_base = load.OracleDB('tech_iskra[iskra]', 'Uthvfy123', self.loader._get_dsn('iskra4')) 
+#         self.data_base = load.OracleDB('', '', self.loader._get_dsn('')) 
         self.data_base = OracleDB('iskra4')
         self.data_base.connect()
 
